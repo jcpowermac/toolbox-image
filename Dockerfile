@@ -1,5 +1,7 @@
 FROM registry.fedoraproject.org/f29/fedora-toolbox:29
 
-RUN dnf -y install $(<extra-packages)
+COPY my-packages /
+
+RUN dnf -y install $(<my-packages)
 
 
