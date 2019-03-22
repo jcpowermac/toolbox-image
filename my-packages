@@ -2,8 +2,6 @@ golang-bin
 gcc-c++
 ansible
 expect
-coreutils-single
-coreutils-full
 python2-pip 
 python2-devel 
 gcc
